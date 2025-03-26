@@ -15,7 +15,7 @@ const app = express()
 app.use(
     cors({
         credentials: true,
-        origin: process.env.NETLIFY_URL,
+        origin: [ process.env.NETLIFY_URL || "https://a5--kanbaz-react-web-app-cs4550-sp25.netlify.app" ],
     })
 );
 const sessionOptions = {
