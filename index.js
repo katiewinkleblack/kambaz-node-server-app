@@ -15,7 +15,7 @@ const app = express()
 app.use(
     cors({
         credentials: true,
-        origin: process.env.NETLIFY_URL ||  "http://localhost:5174",
+        origin: "https://kambaz-node-server-app-r70q.onrender.com",
     })
 );
 const sessionOptions = {
