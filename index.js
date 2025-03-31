@@ -11,6 +11,8 @@ import AssignmentRoutes from './Kambaz/Assignments/routes.js';
 import EnrollmentRoutes from './Kambaz/Enrollments/routes.js';
 import PeopleRoutes from './Kambaz/People/routes.js';
 
+dotenv.config(); 
+
 const app = express()
 app.use(
     cors({
