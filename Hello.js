@@ -1,6 +1,7 @@
 
 export default function Hello(app) {
     app.get('/hello', (req, res) => {
+      console.log("test")
       res.send('Life is good!')
     })
     app.get('/', (req, res) => {
