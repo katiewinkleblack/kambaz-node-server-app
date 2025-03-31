@@ -5,12 +5,12 @@ import CourseRoutes from "./Kambaz/Courses/routes.js";
 import cors from "cors";
 import UserRoutes from './Kambaz/Users/routes.js';
 import session from 'express-session';
-import dotenv from "dotenv/config";
 import ModuleRoutes from './Kambaz/Modules/routes.js';
 import AssignmentRoutes from './Kambaz/Assignments/routes.js';
 import EnrollmentRoutes from './Kambaz/Enrollments/routes.js';
 import PeopleRoutes from './Kambaz/People/routes.js';
 
+import dotenv from "dotenv"; 
 dotenv.config(); 
 
 const app = express()
