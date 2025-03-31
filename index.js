@@ -5,7 +5,7 @@ import CourseRoutes from "./Kambaz/Courses/routes.js";
 import cors from "cors";
 import UserRoutes from './Kambaz/Users/routes.js';
 import session from 'express-session';
-import "dotenv/config";
+import dotenv from "dotenv/config";
 import ModuleRoutes from './Kambaz/Modules/routes.js';
 import AssignmentRoutes from './Kambaz/Assignments/routes.js';
 import EnrollmentRoutes from './Kambaz/Enrollments/routes.js';
